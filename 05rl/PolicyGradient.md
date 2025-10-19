@@ -14,7 +14,7 @@ $$
 
 其中：
 
-- $\tau = (s_0, a_0, r_0, s_1, a_1, r_1, \dots)$ 是一条轨迹（trajectory）
+- $$\tau = (s_0, a_0, r_0, s_1, a_1, r_1, \dots)$$ 是一条轨迹（trajectory）
 - $s_0 \sim \rho_0(\cdot)$：初始状态分布
 - $a_t \sim \pi_\theta(\cdot|s_t)$：策略采样动作
 - $s_{t+1} \sim P(\cdot|s_t, a_t)$：环境转移（与 $\theta$ 无关）
